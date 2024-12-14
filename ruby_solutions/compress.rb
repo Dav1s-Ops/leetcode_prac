@@ -14,7 +14,7 @@ def compress(s)
         result += num.to_s
       end
 
-      result += s[i]
+      result += char
 
       i = j
     end
